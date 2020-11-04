@@ -1,0 +1,447 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+@font-face{
+    font-family:"ARDECODE";
+    src:url(../fonts/ARDECODE.ttf); 
+}
+@font-face{
+    font-family:"DroidSans";
+    src: url(../fonts/DroidSans.ttf);
+}
+@font-face{
+    font-family:"DroidSansBold";
+    src:url(../fonts/DroidSans-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+header{
+    background-color: #2a2e33;
+    width: 100%;
+    min-height: 70px;
+    overflow: hidden;
+}
+#banner {
+    background-color: #00ccff;
+    min-height: 460px;
+    position: relative;
+}
+
+#select_room_type {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 8%;
+    margin-left: 26px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(../img/indication.png) no-repeat;
+    background-color: white;
+    background-position: 5%;
+    padding-left: 11%;
+}
+#package_booking {
+    background: url(../img/backgroud1.jpg) center center;
+    min-height: 600px;
+    border-bottom: 2px solid #949698;
+    overflow: hidden;
+}
+
+#room_type {
+    background: url(../img/background2.jpg) no-repeat center center;
+    min-height: 795px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#testimonial {
+    background-color: #e7cb2c;
+    min-height: 185px;
+    position: relative;
+}
+
+#footer {
+    background-color: #333333;
+    min-height: 358px;
+    overflow: hidden;
+}
+
+.logo {
+    width: 370px;
+    height: 26px;
+    margin-left: 100px;
+    padding-top: 32px;
+    
+}
+
+.logo img{
+    width: 40%;
+}
+
+.title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14pt;
+    color: #797b7d;
+}
+
+
+.nav {
+   width: 699px;
+    margin-right: 100px;
+    overflow: hidden;
+}
+
+.nav ul{
+     margin: 0px;
+    padding: 0px;
+    list-style: none;  
+}
+
+.nav ul li{
+    float: left;
+}
+
+.nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: DroidSans;
+    font-size: 11pt;
+    padding: 35px 22px;
+    
+}
+
+.nav ul li a:hover{
+    background-color: #1e2329;
+    padding: 33px 20px;
+    border-top: 4px solid #ffd700;
+    
+}
+
+.bc {
+    width: 675px;
+    height: 245px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.welcome {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 30pt;
+    color: white;
+}
+
+.ctitle {
+    font-family: DroidSans;
+    font-weight: bold;
+    font-size: 50pt;
+    color: white;
+}
+
+.facilities {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 30pt;
+    color: white;
+}
+
+.pricing {
+    background-color: #2a2e33;
+    width: 915px;
+    height: 85px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top: 91%;
+}
+
+.form_group {
+    float: left;
+    margin: 7px;
+}
+
+.form_group label{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #ffd700;
+    font-size: 16pt;
+    margin-left: 30px;
+  
+}
+
+.date_style {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background: url(../img/calender.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: 5%;
+    padding-left: 8%;
+    margin-left: 26px;
+    
+}
+
+.view_price {
+    width: 160px;
+    height: 33px;
+    background-color: #ffd700;
+    font-family: DroidSans;
+    font-weight: bold;
+    font-size: 14pt;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 12px;
+    
+}
+
+.package_booking_title {
+    width: 1165px;
+    height: 107px;
+    text-align: center;
+    margin: 95px auto;
+    
+}
+.package_booking_title h1{
+    font-family: ARDECODE;
+    font-size: 60pt;
+    color: #2a2e33;
+    margin: 0;
+}
+.package_booking_title p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14pt;
+    color: #2a2e33;
+    
+}
+
+.package_slider {
+    width: 1035px;
+    min-height: 230px;
+    margin: 15px auto;
+}
+
+.left_indicator {
+    margin-top: 7%;
+}
+
+.single-item {
+    float: left;
+    width: 225px;
+    height: 215px;
+    background-color: white;
+    border: 3px solid #2a2e33;
+    border-radius: 130px;
+    margin-left: 6%;
+   
+}
+
+.right_indicator {
+    margin-top: 7%;
+}
+
+.room_type_title {
+    width: 465px;
+    height: 80px;
+    margin: 0 auto;
+    
+}
+.room_type_title h1{
+    font-family: ARDECODE;
+    font-size: 60pt;
+    color: #2a2e33;
+    margin: 0 px;   
+}
+
+.all_room_types {
+       width: 1190px;
+    height: 580px;
+    margin: 70px auto;
+    padding-bottom: 60px;
+   
+}
+
+.single_type {
+      width: 370px;
+    height: 320px;
+    float: left;
+    margin-left: 26px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.room_image {
+}
+
+.room_type_data {
+}
+.room_type_data h1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 20pt;
+    text-align: center;
+    color: #2a2e33;
+    margin: 0px;
+}
+.room_type_data p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 11pt;
+    text-align: center;
+    color: #2a2e33;
+    
+}
+.short_intro {
+}
+
+.room_facilities {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.testimonial_data {
+       width: 875px;
+    height: 100px;
+    padding-top: 45px;
+    float: left;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    margin-left: 120px;
+}
+.testimonial_data h1{
+    margin: 0px;
+    color: white;
+    font-weight: normal;
+    font-size: 36pt;
+    
+}
+
+.comments {
+    color: white;
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+.author {
+    color: white;
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+.person_img {
+        position: absolute;
+    right: 7%;
+    bottom: -12px;
+}
+
+.footer_wrapper{
+    width: 1120px;
+    min-height: 180px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.about {
+    width: 220px;
+    height: 180px; 
+}
+
+.about h1, .latest_news h1, .join_deluxe h1, .member_area h1{
+    font-family: DroidSans;
+    font-size: 15pt;
+    color: #dbdbdb;
+}
+
+.about_desc {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10pt;
+    color: #dbdbdb;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.latest_news {
+    width: 190px;
+    height: 180px;
+}
+
+.single_news {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10pt;
+    color: #dbdbdb;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.single_date {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10pt;
+    color: #ffd700;
+}
+
+.join_deluxe {
+    width: 430px;
+    height: 200px;
+}
+
+.readmore {
+   width: 108px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffd700;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.member_area {
+    width: 200px;
+    height: 200px
+}
+
+.member-form-group {
+}
+.member-form-group label {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10pt;
+    color: white;
+}
+
+.username {
+    width: 200px;
+    height: 25px;
+   background-color: transparent;
+    border: 2px solid #2c2c2c;
+    border-radius: 10px;
+     margin-top: 7px;
+}
+
+.pass {
+    width: 200px;
+    height: 25px;
+   background-color: transparent;
+    border: 2px solid #2c2c2c;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+.footer_bottom{
+    height: 50px;
+    background-color: black
+}
